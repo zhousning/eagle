@@ -184,9 +184,9 @@ button#showLeftPush:before {
 }
 /*--BANNER--*/
 .banner{
-  background: url(../images/5.jpg) no-repeat center top;
+  /*background: url(../images/5.jpg) no-repeat center top;*/
   width:100%;
-  height: 600px;
+  /*min-height: 600px;*/
   display: block;
   background-size: cover;
   -webkit-background-size: cover;
@@ -486,7 +486,7 @@ ul.social-in li{
   display: inline-block;	
 }
 ul.social-in li  i{
-  background: url(../images/img-sprite.png)no-repeat 7px 3px rgb(255, 0, 104);
+  background: url(../images/share.png)no-repeat 7px 3px rgb(255, 0, 104);
   width: 50px;
   height: 50px;
   display: inline-block;
@@ -527,9 +527,10 @@ ul.social-in li  i.dribbble:hover{
   color: #000;
   margin: 0 0 0.5em;
 }
-.ft-grid1 p{
+.ft-grid1 p, .ft-grid2 p{
   font-size: 1.3em; 
-  color: #BEBDBD;
+  color: #ff0068;
+  margin-bottom: 15px;
 }
 .class-footer{
   padding:2em 0;
@@ -1200,7 +1201,7 @@ ul.blog-ic {
     padding: 10em 0;
   }
   .banner {
-    min-height: 493px;
+    /*min-height: 493px;*/
   }
   .col-top {
     padding: 4em 0 6em;
@@ -1308,7 +1309,7 @@ ul.blog-ic {
     padding: 7em 0;
   }
   .banner {
-    min-height: 445px;
+    /*min-height: 445px;*/
   }
   .col-top {
     padding: 3em 0 5em;
@@ -1561,7 +1562,7 @@ ul.blog-ic {
     padding: 4em 0;
   }
   .banner {
-    min-height: 343px;
+    /*min-height: 343px;*/
   }
   .col-top h2,.col-mid h3,.content-events h3 {
     font-size: 2.5em;
@@ -1664,7 +1665,7 @@ ul.blog-ic {
     padding: 2.5em 0;
   }
   .banner {
-    min-height: 250px;
+    /*min-height: 250px;*/
   }
   .col-top {
     padding: 2em 0 5em;
@@ -1693,7 +1694,7 @@ ul.blog-ic {
     margin-bottom: 1em;
   }
   .now-more1 {
-    min-height: 277px;
+    min-height: 195px;
   }
   .content-middle {
     padding: 2em 0 1em;
@@ -1898,7 +1899,7 @@ ul.blog-ic {
     padding: 1.5em 0;
   }
   .banner {
-    min-height: 220px;
+    /*min-height: 220px;*/
   }
   .flex-control-nav {
     bottom: 1%;
@@ -2171,6 +2172,17 @@ ul.blog-ic {
   padding-right: 5px;
   padding-left: 5px;
 }
+.portfolio-item img{
+  margin: 0px auto;
+}
 .padding-top-zero {
   padding-top: 0px;
+}
+.wx-image {
+  width: 180px;
+  display: block
+  margin: 0px auto;
+}
+.padding-none {
+  padding: 0px;
 }

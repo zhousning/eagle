@@ -4,15 +4,15 @@
     <title>Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <script src="assets/js/jquery.min.js"></script>
     <link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all" />	
-    <link rel="stylesheet" href="assets/css/flexslider.css" type="text/css" media="screen" />
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
   </head>
   <body> 
     <!--header-->	
     <div class="header" >
-      <div class="col-md-6 logo">
+      <div class="col-md-12 logo text-center">
         <h1><a href="index.html"><span>新志远</span>教育</a></h1>
         <!--<h1><img src="assets/images/logo.png"/></h1>-->
       </div>
@@ -20,49 +20,31 @@
     </div>
     <!--banner-->
     <div class="banner">
-      <div class="container">
-
-        <div class="slider">
-
-          <section class="slider">
-            <div class="flexslider">
-              <ul class="slides">
-                <li>
-                  <div class="banner-matter">
-                    <h3>始终为了提高孩子的成绩！！！</h3>
-                  </div>
-                </li>
-                <li>
-                  <div class="banner-matter">
-                    <h3>为了和家长相同的目标,我们一直在努力！</h3>
-                  </div>
-                </li>
-                <li>
-                  <div class="banner-matter">
-                    <h3>选择新志远,选择新梦想</h3>
-                  </div>
-                </li>
-
-              </ul>
+      <div class="container-fluid padding-none">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          </ol>
+        
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="assets/images/5.jpg">
+              <div class="carousel-caption">
+                <h4>
+                  始终为了提高孩子的成绩！！！
+                </h4>
+              </div>
             </div>
-          </section>
-
-          <script>window.jQuery || document.write('<script src="assets/js/libs/jquery-1.7.min.js">\x3C/script>')</script>
-          <!--FlexSlider-->
-          <script defer src="assets/js/jquery.flexslider.js"></script>
-          <script type="text/javascript">
-            $(function(){
-              SyntaxHighlighter.all();
-            });
-            $(window).load(function(){
-              $('.flexslider').flexslider({
-                animation: "slide",
-                start: function(slider){
-                  $('body').removeClass('loading');
-                }
-              });
-            });
-          </script>
+            <div class="item">
+              <img src="assets/images/52.jpg">
+              <div class="carousel-caption">
+                <h4>
+                  为了和家长相同的目标,我们一直在努力！
+                </h4>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -156,68 +138,44 @@
           <div class="content-middle1">
             <div class="row">
               <div class="col-md-3 col-sm-6 col-xs-12 portfolio-item">
-                <a href="#">
-                  <img class="img-responsive" src="assets/images/qs1.jpg" alt="">
-                </a>
+                <img class="img-responsive" src="assets/images/qs1.jpg" alt="">
               </div>
               <div class="col-md-3 col-sm-6 col-xs-12 portfolio-item">
-                <a href="#">
-                  <img class="img-responsive" src="assets/images/qs2.jpg" alt="">
-                </a>
+                <img class="img-responsive" src="assets/images/qs2.jpg" alt="">
               </div>
               <div class="col-md-3 col-sm-6 col-xs-12 portfolio-item">
-                <a href="#">
-                  <img class="img-responsive" src="assets/images/qs3.jpg" alt="">
-                </a>
+                <img class="img-responsive" src="assets/images/qs3.jpg" alt="">
               </div>
               <div class="col-md-3 col-sm-6 col-xs-12 portfolio-item">
-                <a href="#">
-                  <img class="img-responsive" src="assets/images/qs4.jpg" alt="">
-                </a>
+                <img class="img-responsive" src="assets/images/qs4.jpg" alt="">
               </div>
             </div>
             <div class="row">
               <div class="col-md-3 col-sm-6 col-xs-12 portfolio-item">
-                <a href="#">
-                  <img class="img-responsive" src="assets/images/qs5.jpg" alt="">
-                </a>
+                <img class="img-responsive" src="assets/images/qs5.jpg" alt="">
               </div>
               <div class="col-md-3 col-sm-6 col-xs-12 portfolio-item">
-                <a href="#">
-                  <img class="img-responsive" src="assets/images/qs6.jpg" alt="">
-                </a>
+                <img class="img-responsive" src="assets/images/qs6.jpg" alt="">
               </div>
               <div class="col-md-3 col-sm-6 col-xs-12 portfolio-item">
-                <a href="#">
-                  <img class="img-responsive" src="assets/images/qs7.jpg" alt="">
-                </a>
+                <img class="img-responsive" src="assets/images/qs7.jpg" alt="">
               </div>
               <div class="col-md-3 col-sm-6 col-xs-12 portfolio-item">
-                <a href="#">
-                  <img class="img-responsive" src="assets/images/qs8.jpg" alt="">
-                </a>
+                <img class="img-responsive" src="assets/images/qs8.jpg" alt="">
               </div>
             </div>
             <div class="row">
               <div class="col-md-3 col-sm-6 col-xs-12 portfolio-item">
-                <a href="#">
-                  <img class="img-responsive" src="assets/images/qs9.jpg" alt="">
-                </a>
+                <img class="img-responsive" src="assets/images/qs9.jpg" alt="">
               </div>
               <div class="col-md-3 col-sm-6 col-xs-12 portfolio-item">
-                <a href="#">
-                  <img class="img-responsive" src="assets/images/qs10.jpg" alt="">
-                </a>
+                <img class="img-responsive" src="assets/images/qs10.jpg" alt="">
               </div>
               <div class="col-md-3 col-sm-6 col-xs-12 portfolio-item">
-                <a href="#">
-                  <img class="img-responsive" src="assets/images/qs11.jpg" alt="">
-                </a>
+                <img class="img-responsive" src="assets/images/qs11.jpg" alt="">
               </div>
               <div class="col-md-3 col-sm-6 col-xs-12 portfolio-item">
-                <a href="#">
-                  <img class="img-responsive" src="assets/images/qs12.jpg" alt="">
-                </a>
+                <img class="img-responsive" src="assets/images/qs12.jpg" alt="">
               </div>
             </div>
           </div>
@@ -277,45 +235,26 @@
     <div class="footer">
       <div class="footer-mid">
         <div class="container">
-          <div class="col-sm-3 ft-grid1">
-            <h3>地址</h3>
-            <p>任城区红星东路82号</p>
-            <p>济宁十二中对过</p>
-            <p>15805379588</p>
+          <div class="col-sm-5 ft-grid1">
+            <h3>联系我们,了解更多</h3>
+            <p>地址：任城区红星东路82号(济宁十二中对过)</p>
+            <p>电话：15805379588</p>
+            <p>
+              Q Q：2832688566
+              <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2832688566&site=qq&menu=yes"><img border="0" src="assets/images/qqjt.png" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
+            </p>
           </div>
-          <div class="col-sm-3 ft-grid2">
-            <h3>联系我们</h3>
-            <ul class="social-in">
-              <li><a ><i> </i></a></li>						
-              <li><a ><i class="twitter"> </i></a></li>
-              <li><a ><i class="dribbble"> </i></a></li>						
-            </ul>
-          </div>
-          <div class="col-sm-6 ft-grid1">
-            <h3>Newsletter</h3>
-            <form>
-              <input type="text" value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
-              <input type="submit" value="Subscribe">
-            </form>
+          <div class="col-sm-5 ft-grid2 text-center">
+            <img src="assets/images/wx.jpg" class="wx-image"/>
+            <p>扫一扫加微信</p>
           </div>
           <div class="clearfix"> </div>
         </div>
       </div>
       <div class="class-footer">
         <div class="container">
-          <div class="col-md-6 footer-nav">
-            <ul>
-              <li ><a  href="index.html"  >Home</a></li>
-              <li><a  href="about.html"  >About</a></li>
-              <li><a href="services.html"  >Services</a></li>
-              <li><a  href="gallery.html" >Gallery</a></li>
-              <li><a  href="codes.html" > Short Codes</a></li>
-              <li><a href="contact.html" >Contact</a></li>
-
-            </ul>
-          </div>
-          <div class="col-md-6 footer-grid">
-            <p >Copyright &copy; 2015.Company name All rights reserved.<a target="_blank" href="http://www.freemoban.com/">www.freemoban.com</a></p>
+          <div class="col-md-12 text-center footer-grid">
+            <p >Copyright &copy; 2015.新志远教育 All rights reserved.<a target="_blank" href="http://www.xinzyjy.com/">www.xinzyjy.com</a></p>
           </div>
           <div class="clearfix"> </div>
         </div>
