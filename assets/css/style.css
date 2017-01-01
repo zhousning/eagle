@@ -20,6 +20,9 @@ h1,h2,h3,h4,h5,h6,label,p{
 /*--header--*/
 .header{
   padding: 15px 0px;
+  /*box-shadow: 0 0 4px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0 0 4px rgba(0,0,0,0.5);*/
 }
 .header-top{
   float: left;
@@ -517,19 +520,18 @@ ul.social-in li  i.dribbble:hover{
 }
 .footer-mid {
   padding: 5em 0;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
+  background: #ff5630;
 }
 .ft-grid1 h3,.ft-grid2 h3{
   font-size: 2em;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
-  color: #000;
+  color: white;
   margin: 0 0 0.5em;
 }
 .ft-grid1 p, .ft-grid2 p{
   font-size: 1.3em; 
-  color: #ff0068;
+  color: white;
   margin-bottom: 15px;
 }
 .class-footer{
@@ -550,7 +552,7 @@ p.footer-grid a:hover{
   font-size: 1.1em;
 }
 .footer-grid p a{
-  color: #FF0068;
+  color: #ff5630;
   text-decoration:none;
 }
 .footer-grid p a:hover{
@@ -1299,7 +1301,7 @@ ul.blog-ic {
     width: 25%;
   }	
   .logo {
-    width: 50%;
+    width: 100%;
   }	
   .search {
     width: 25%;
@@ -1648,7 +1650,7 @@ ul.blog-ic {
     font-size: 1.8em;
   }
   .logo {
-    width: 50%;
+    width: 100%;
   }
   .search {
     width: 25%;
@@ -1671,7 +1673,7 @@ ul.blog-ic {
     padding: 2em 0 5em;
   }
   .col-top h2, .col-mid h3, .content-events h3 {
-    font-size: 2em;
+    font-size: 1.5em;
   }	
   .col-top p, .col-mid p, .content-events p {
     font-size: 0.9em;
